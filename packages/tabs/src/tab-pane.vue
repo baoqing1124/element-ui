@@ -40,7 +40,7 @@
       active() {
         const active = this.$parent.currentName === (this.name || this.index);
         if (active) {
-          this.loaded = true;
+          //this.loaded = true;
         }
         return active;
       },
