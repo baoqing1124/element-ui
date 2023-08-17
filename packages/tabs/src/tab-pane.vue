@@ -2,7 +2,6 @@
   <div
     class="el-tab-pane"
     v-if="(!lazy || loaded) || active"
-    v-show="active"
     role="tabpanel"
     :aria-hidden="!active"
     :id="`pane-${paneName}`"
